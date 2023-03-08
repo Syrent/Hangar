@@ -20,7 +20,6 @@ function getBorderClasses(): string {
   if (props.project.visibility === Visibility.SOFT_DELETE) {
     return "!border-red-500 border-1px";
   }
-  return props.project.visibility === Visibility.PUBLIC ? "!border-gray-300 !dark:border-gray-700 border-1px" : "";
 }
 </script>
 
